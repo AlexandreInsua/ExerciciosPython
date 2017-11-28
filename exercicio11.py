@@ -1,5 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+
 # Garda nun ficheiro os números do 1 ao 1 000 000
 
 file = open("numeros.txt", "w")
