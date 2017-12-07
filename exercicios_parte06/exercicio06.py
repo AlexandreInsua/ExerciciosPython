@@ -20,6 +20,7 @@ def separar(lista):
             impares.append(i)
     return pares, impares
 
+# método que devolve dúas listas
 pares, impares = separar(numeros)
 print(pares)
 print(impares)

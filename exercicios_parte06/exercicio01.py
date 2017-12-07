@@ -6,5 +6,4 @@
 def area_rectangulo(base, altura):
     return base * altura
 
-
 print("A área do rectángulo é {}". format(area_rectangulo(15,10)))

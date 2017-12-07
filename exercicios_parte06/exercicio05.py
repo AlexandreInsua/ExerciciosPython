@@ -15,4 +15,4 @@ def recortar(numero, minimo, maximo):
         return maximo
     return numero
 
-print( recortar(15, 0, 10) )
+print(recortar(15, 0, 10))
