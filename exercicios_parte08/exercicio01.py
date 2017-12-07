@@ -2,15 +2,13 @@ from math import sqrt
 
 
 class Punto:
-    x = 0
-    y = 0
 
     def __init__(self, x=0, y=0):
         self.x = x
         self.y = y
 
     def __str__(self):
-        print(str(self.x) + "," + str(self.y))
+        print("({},{})".format(self.x, self.y))
 
     def cuadrante(self):
         if self.x >= 0 and self.y >= 0:
@@ -29,7 +27,7 @@ class Punto:
 
     def distancia(self, punto):
         distancia = sqrt((punto.x - self.x)**2 + (punto.y - self.y)**2)
-        print("Distancia entre os dous puntos: {:.3f}".format(distancia))
+        print("Distancia entre os dous puntos: {:.10f}".format(distancia))
 
 
 class Rectangulo():
