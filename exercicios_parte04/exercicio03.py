@@ -29,3 +29,6 @@ for t in range(len(tareas)-1):
 print("== Cola de tareas ordenadas == ")
 print(cola_tareas)
 
+# Ángel utiliza un for máis simple
+# for tarea in tareas:
+#   cola_tareas.append(tareas[1])

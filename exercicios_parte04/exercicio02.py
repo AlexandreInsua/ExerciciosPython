@@ -12,8 +12,10 @@ arquero   = { 'vida':2, 'ataque':2, 'defensa': 2, 'alcance':2 }
 
 caballero['vida'] = guerrero['vida'] * 2
 caballero['defensa'] = guerrero['defensa'] * 2
+
 guerrero['ataque'] = caballero['ataque'] * 2
-guerrero['alcance'] = caballero['ataque'] * 2
+guerrero['alcance'] = caballero['alcance'] * 2
+
 arquero['defensa'] = int(guerrero['defensa'] / 2)
 arquero['alcance'] = guerrero['alcance'] * 2
 
