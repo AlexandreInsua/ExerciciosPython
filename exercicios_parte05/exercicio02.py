@@ -20,6 +20,7 @@ if type(int(sys.argv[1])) == int:
     lonxitude = len(str(enteiro))
     print("Descompoñendo o número ", enteiro)
       
+    # isto non o fai Ángel
     parametro = ":0{}d".format(lonxitude)
     parametro = "{" + parametro
     parametro = parametro + "}"
