@@ -17,3 +17,10 @@ else:
         print("{} é maior que {}.".format(num1, num2))
     else:
         print("{} é menor que {}.".format(num1, num2))    
+
+
+# Solución de Angel
+# print("¿Son iguales? ", n1 == n2)
+# print("¿Son diferentes?", n1 != n2)  /*** Se non son iguais, son diferentes! ***\
+#print("¿El primero es mayor que el segundo?", n1 > n2)
+#print("¿El segundo es mayor o igual que el primero?", n1 <= n2)

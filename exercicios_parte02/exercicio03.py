@@ -14,3 +14,10 @@ if 0 < numero_usuario <10:
     print(numero_magico)
 else:
     print("O numero debe ser entre 1 e 9 ambos incluídos.")
+
+
+# Solución de Ángel. Non filtra os números que non cumpren os requisitos
+# numero_usuario = int(input("Introduce un número del 1 al 9: "))
+# numero_usuario *= 9
+# numero_magico *= numero_usuario
+# print("El número mágico es:", numero_magico)
