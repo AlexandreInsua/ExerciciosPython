@@ -4,6 +4,7 @@ b = [1, 10, 100] # list de integers
 c = -25          # integer
 d =  1.167       # float
 e = ["Hola", "Mundo"]   # list de Strings
+f = '' # String
 
 # extra ver tipo de dato
 print(type(a))
@@ -11,3 +12,4 @@ print(type(b))
 print(type(c))
 print(type(d))
 print(type(e))
+print(type(f))

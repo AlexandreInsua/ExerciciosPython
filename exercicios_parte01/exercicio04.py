@@ -8,7 +8,9 @@
 nota_1 = 10
 nota_2 = 7
 nota_3 = 4
+
 media = (nota_1 + nota_2 + nota_3) / 3
 media_ponderada = nota_1 * 0.15 + nota_2 * 0.35 + nota_3 * 0.50 
+
 print("A nota media é: ", media )
-print("A nota media ponderada é  ", media_ponderada)
+print("A nota media ponderada é  {:.2f}".format(media_ponderada))

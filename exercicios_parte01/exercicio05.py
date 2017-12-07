@@ -11,12 +11,16 @@ matriz = [
     [4, 4, 4, 13]
 ]
 
-print("matriz orixinal: ")
+print("Matriz orixinal: ")
 for fila in matriz:
     print("\t", fila)
 
-print("matriz modificada")
+print("\nMatriz modificada")
 for fila in matriz:
     fila[3] = sum(fila[:3]) 
     print("\t", fila)
-    
+
+# Ángel usa os slicing desde o final:
+# o 4º elemento = suma dos 3 primeiros [:-1] desde o principio até o final, excluído este.
+# matriz[1][-1] = sum(matriz[1][:-1])
+# matriz[3][-1] = sum(matriz[3][:-1])

@@ -11,4 +11,8 @@ name = cadena_volteada[3:7]
 surname = cadena_volteada[7:]
 note = cadena_volteada[0:2]
 
-print("{} {}  ha sacado un {}".format( name, surname, note))
+print("{} {}  ha sacado un {} de nota.".format( name, surname, note))
+
+# Ángel non segmenta entre nome e apelido
+# cadena_volteada = cadena[::-1]
+# print(cadena_volteada[3:], "ha sacado un", cadena_volteada[:2], "de nota.")
