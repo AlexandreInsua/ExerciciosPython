@@ -1,5 +1,6 @@
 # 3) Localiza el error en el siguiente bloque de código.
-#  Crea una excepción para evitar que el programa se bloquee y además explica en un mensaje al usuario la causa y/o solución:
+#  Crea una excepción para evitar que el programa se bloquee y 
+# además explica en un mensaje al usuario la causa y/o solución:
 # In [11]:
 # Completa el ejercicio aquí
 # colores = { 'rojo':'red', 'verde':'green', 'negro':'black' } 
@@ -19,3 +20,5 @@ try:
     colores['blanco']
 except KeyError:
     print("A clave non existe.")
+
+# print("Error: La clave del diccionario no se encuentra, debes probar con otra que sí exista.")

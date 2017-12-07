@@ -17,3 +17,5 @@ try:
     print(resultado)
 except ZeroDivisionError:
     print("O resultado de unha división entre 0 é unha indterminación matemática.")
+
+    # print("Error: No es posible dividir por cero, debes introducir un número distinto.")
