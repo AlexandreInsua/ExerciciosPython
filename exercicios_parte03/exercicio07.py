@@ -7,7 +7,7 @@ lista2 = [1, 12, 5, 11, 6, 2, 13, 17, 19, 3]
 lista3 = []
 
 for n in lista1:
-    if n in lista2 and n non in lista3:
+    if n in lista2 and n not in lista3:
         lista3.append(n)
 
 print("lista 1: ",lista1)
