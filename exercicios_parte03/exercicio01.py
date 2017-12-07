@@ -4,8 +4,6 @@
 # Mostrar una multiplicación de los dos números
 # En caso de no introducir una opción válida, el programa informará de que no es correcta.
 
-import sys
-
 print("Operacións con dous números.")
 num1 = int(input("Inserte un número: "))
 num2 = int(input("Inserte outro número: "))
@@ -29,3 +27,13 @@ while opcion != 4:
     else:
         print("A opción debe ser entre 1 e 4.")
         break;
+
+# Solución de Ángel: non usa variables
+# if opcion == 1:
+#    print("La suma de",n1,"+",n2,"es",n1+n2)
+# elif opcion == 2:
+#     print("La resta de",n1,"-",n2,"es",n1-n2)
+# elif opcion == 3:
+#    print("El producto de",n1,"*",n2,"es",n1*n2)
+# else:
+#    print("Opción incorrecta")

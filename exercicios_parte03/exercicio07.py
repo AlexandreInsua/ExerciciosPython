@@ -7,7 +7,7 @@ lista2 = [1, 12, 5, 11, 6, 2, 13, 17, 19, 3]
 lista3 = []
 
 for n in lista1:
-    if n in lista2:
+    if n in lista2 and n non in lista3:
         lista3.append(n)
 
 print("lista 1: ",lista1)
@@ -19,3 +19,8 @@ lista2.sort()
 lista3.sort()
 
 print("lista de elementos comúns: ",lista3)
+
+# Ángel evita que se repitan
+# for letra in lista_1:
+#     if letra in lista_2 and letra not in lista_3:
+#        lista_3.append(letra)

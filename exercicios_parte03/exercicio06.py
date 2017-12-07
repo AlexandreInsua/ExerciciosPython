@@ -39,3 +39,9 @@ print("Números pares do 0 ao 20: ", lista3)
 print("Números impares do -20 ao 0: ", lista4)
 print("Números múltiplos de 5 do 0 ao 50: ", lista5)
 
+# solución de Ángel
+print("Números do 0 ao 10: ", list(range(0,11)))
+print("Números do -10 ao 0: ", list(range(-10,1)))
+print("Números pares do 0 ao 20: ", list(range(0,21,2)))
+print("Números impares do -20 ao 0: ", list(range(-19,0,2)))
+print("Números múltiplos de 5 do 0 ao 50: ", list(range(0,51,5)))

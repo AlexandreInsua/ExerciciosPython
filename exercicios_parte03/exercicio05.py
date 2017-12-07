@@ -17,3 +17,14 @@ if num in numeros:
     print("Acertaches, {} está na lista de números.".format(num))
 else:
     print("Mal! :(\n{} non está na lista de números.".format(num))
+
+
+# A solución de Ángel é máis tradicional
+# while True:
+#    numero = int(input("Escribe un número del 0 al 9: "))
+#    if numero >= 0 and numero <= 9:
+#        break
+# if numero in numeros:
+#    print("El número",numero,"se encuentra en la lista",numeros)
+# else:
+#    print("El número",numero,"no se encuentra en la lista",numeros)
