@@ -12,4 +12,3 @@ Exercicios de repaso de repaso da teor?a vista en clase:
     1. Exercicio que crea unha clase ***Punto*** para traballar con [vectores](https://es.wikipedia.org/wiki/Vector) e ***Rectángulo** e que cálcula a diagonal.
 ![diagonal](https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/Regular_polygon_4_annotated.svg/240px-Regular_polygon_4_annotated.svg.png)
 
-***Alexandre Insua Moreira &copy; 2017***
