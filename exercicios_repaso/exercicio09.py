@@ -5,7 +5,8 @@
 words = input("Introduza a palabra que se vai buscar e a substituta: ").split()
 
 print("Palabra a buscar: ", words[0] , ".Palabra substituta: ", words[1])
-file  = open("frases.txt", "r")
+
+with open("frases.txt", "r") as file
 text = file.read()
 print("Texto orixinal:\n")
 print(text)
@@ -20,3 +21,4 @@ print("Texto modificado:\n")
 print(text2)
 file.close()
 file2.close()
+

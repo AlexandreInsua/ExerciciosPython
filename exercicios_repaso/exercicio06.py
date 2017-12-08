@@ -1,5 +1,15 @@
+# Crea una clase (en python) llamada Usuario.
+# Tendrá por atributos: nombre, apellido1, apellido2, teléfono, email y dirección.
+# Tendrá un constructor
+# Tendrá un método __str__ para mostrar los datos del usuario por pantalla
+# Tendrá otro método llamado nombreCompleto, que devolverá el nombre y apellidos concatenados 
+# y en mayúscula.
+# Tendrá otro método llamado prefijoTelefónico, que devolverá los 3 primeros caracteres del teléfono.
+# Usar un poco la clase a modo de ejemplo.
+
+
 class Usuario:
-    # atributos
+    # atributos non é necesario declaralos.
     nome = ""
     apelido1 = ""
     apelido2 = ""
@@ -35,4 +45,8 @@ print(u.__str__())
 print(u.nomeCompleto())
 print(u.prefixoTelefonico())
 
-
+u = Usuario("Angel", "Gonzalez", "Martinez","986472211",
+    "gonzalezm.angel@gmal.com", "Pizarro")
+print(u)
+print(u.nomeCompleto())
+print(u.prefixoTelefonico())

@@ -74,3 +74,9 @@ final = datetime.datetime.now()
 realizacion = final-inicio
 print("Tempo de realización: " + str(realizacion))
 
+# IMPORTACIÓNS 
+# from random import randint 
+# from time import time 
+# tempo_inicial = time 
+# enteiro aleatorio 
+# randint(0,9)

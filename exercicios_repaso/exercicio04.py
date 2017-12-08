@@ -10,6 +10,7 @@ while name != "":
 
 print(list_of_names)
 
-# TODO mandalo a un ficheiro
-
-
+file = open("nomes.txt", "W")
+for n in list_of_names:
+    file.write(n + "\n")
+file.close()
